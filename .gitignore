@@ -1,12 +1,15 @@
 # Ambiente virtual
 venv/
 
-# Dados brutos (opcional -- decisão que já documentamos no README)
+# Dados brutos 
 data/raw/*.csv
+
+# Dados processados
+data/processed/*.csv
 
 # Cache do Python
 __pycache__/
 *.pyc
 
-# Configurações locais / segredos (você vai usar isso a partir da Semana 7)
+# Configurações locais
 .env

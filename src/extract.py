@@ -20,3 +20,4 @@ if __name__ == "__main__":
     print("\nValores nulos por coluna:")
     print(df_bruto.isnull().sum())
     print("\nLinhas duplicadas:", df_bruto.duplicated().sum())
+
